@@ -5896,7 +5896,7 @@ local i=CreateFrame("Frame","",a);
 i:SetPoint("Top",0,-10)i:SetWidth(s+6-24);
 i:SetHeight(w+6-68);
 a.tab1Content=i;
-t=e:CreateCaption(0,0,"Bejeweling прогресс: ________",i,16,1,.85,.1,true);
+t=e:CreateCaption(0,0,"Bejeweling прогресс: ________",i,16,1,.85,.1);
 t:ClearAllPoints();
 t:SetPoint("Top",0,-2);
 t:Show();
